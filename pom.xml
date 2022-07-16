@@ -43,6 +43,14 @@
                         <version>4.7.1</version>
                     </dependency>
                 </dependencies>
+                <executions>
+                    <execution>
+                        <id>check</id>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
 
             <plugin>
